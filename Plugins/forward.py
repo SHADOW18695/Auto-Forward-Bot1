@@ -8,7 +8,7 @@ from config import Config
 
 
 @channelforward.on_message(filters.channel)
-async def forward(c, m):
+async def forward(client, message):
     # Forwarding the messages to the channel
    try:
       for id in Config.CHANNEL:
