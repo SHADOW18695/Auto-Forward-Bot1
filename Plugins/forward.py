@@ -1,4 +1,6 @@
 import logging
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 import asyncio
@@ -6,9 +8,8 @@ from pyrogram import filters
 from bot import channelforward
 from config import Config 
 
-
 @channelforward.on_message(filters.channel)
-async def forward(client, message):
+async def forward(c, m):
     # Forwarding the messages to the channel
    try:
       for id in Config.CHANNEL:
