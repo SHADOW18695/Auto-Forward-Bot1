@@ -16,7 +16,7 @@ async def forward(c, m):
       for id in Config.CHANNEL:
          from_channel, to_channel = id.split(":")
          if m.chat.id == int(from_channel):
-            func = m.copy if AS_COPY else m.forward
+            func = m.copy if True else m.forward
             await func(int(to_channel), as_copy=True)
             logger.info("Forwarded a m from", from_channel, "to", to_channel)
             await asyncio.sleep(1)
