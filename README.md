@@ -18,10 +18,14 @@ You can deploy this code any where you want but we provided heroku and railway d
 
 - Paste the below API_HASH and API_ID respectively.
 
-- Get the your channel id and paste in below in the format -10023352648:-100655379
+- Get the your channel id and paste in below in the format -10023352648:-1006553791356
      - In the about format -10023352648 is the channel from which you need to forward 
-     - and -100655379 is the channel to which you wanted to forward 
-[<p align="center"><img src="https://telegra.ph/file/2130bae31fa168ae57224.jpg" width="300">](https://telegram.dog/Ns_bot_updates)
+     - and -1006553791356 is the channel to which you wanted to forward 
+- For Multiple Channel You have to Paste in this Format -10023352648:-1006553791356
+                                                        -10023352648:-1006434564567
+                                                        -10023352648:-1005665444537
+     - In the about format -10023352648 is the channel from which you need to forward
+     - Remains are the channel to which you wanted to forward 
 
 - Get the Bot Father Token from [@BotFather](https://telegram.dog/botfather)
 
@@ -30,8 +34,8 @@ You can deploy this code any where you want but we provided heroku and railway d
 - Set AS_COPY value to True if you want to forward messages without forward tag.
 
 
-## How to reach Me ?
-<a href="https://telegram.dog/Ns_bot_updates"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+## Credits
+- Thanks to DEVs <a href="https://t.me/+luRUjM2LGsQxZTY1"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="https://telegram.dog/Ns_Bot_supporters"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ## COMMANDS
